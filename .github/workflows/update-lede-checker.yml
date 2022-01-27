@@ -9,7 +9,7 @@
 # Description: Source code update checker
 #
 
-name: Update Checker
+name: Update Checker of Lean's Lede 18.06 Snapshot 
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
@@ -17,8 +17,8 @@ env:
 
 on:
   workflow_dispatch:
-#  schedule:
-#    - cron: 0 */18 * * *
+  schedule:
+   - cron: 0 */18 * * *
 
 jobs:
   check:
