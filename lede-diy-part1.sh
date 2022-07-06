@@ -18,7 +18,7 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # Add small8's feed
-echo 'src-git small8 https://github.com/kenzok8/small-package.git' >>feeds.conf.default
+echo 'src-git small8 https://github.com/kenzok8/small-package.git' >> feeds.conf.default
 
 # Personal use
 git clone https://github.com/jimlee2002/openwrt-minieap-gdufs.git package/network/minieap-gdufs
