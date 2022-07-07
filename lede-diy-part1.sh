@@ -22,3 +22,7 @@ echo 'src-git small8 https://github.com/kenzok8/small-package.git' >> feeds.conf
 
 # Personal use
 git clone https://github.com/jimlee2002/openwrt-minieap-gdufs.git package/network/minieap-gdufs
+
+# Clone the newest argon theme
+rm -rf package/lean/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
