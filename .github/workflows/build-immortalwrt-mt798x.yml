@@ -22,7 +22,7 @@ on:
   #  - cron: 0 0 */15 * *
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede.git
+  REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x.git
   REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config/mt7981-ax3000.config
