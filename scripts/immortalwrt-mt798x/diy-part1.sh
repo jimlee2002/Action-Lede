@@ -22,3 +22,4 @@
 
 # Personal use
 git clone https://github.com/jimlee2002/openwrt-minieap-gdufs.git package/network/minieap-gdufs
+git clone https://github.com/jimlee2002/luci-proto-minieap.git package/network/luci-proto-minieap
